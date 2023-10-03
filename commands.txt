@@ -1,0 +1,70 @@
+Important innitilas to do after installation:
+sudo apt update && sudo apt upgrade ; for security and software update
+sudo apt install make
+sudo apt install gcc
+sudo apt install bison
+sudo apt install flex
+
+snap list; to see snap package
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb ;to install chrome directly,we can                 do it as windows too.Wgwt basically download the chrome.
+sudo dpkg -i google-chrome-stable_current_amd64.deb ; to install chrome
+sudo apt-get install -f ; if any errors occur durimg installation/to fix broken packages
+google-chrome; Enter to launch Chrome
+
+Commands:
+mazhar@mazhar-VirtualBox; mazhar is the user name and 'mazhar-VirtualBox' is the machine name
+$; regular user mode
+pwd=print working directory and to see the absolute path
+cd=change directory
+cd bin; relative path
+cd /bin ;absloute path
+ls=list of the contents of a directory.
+~= home directory
+cd /;
+cd ..; going back
+
+cntl+alt+t= terminal opening
+cntl+shift+C/V=copy paste
+
+mv= mv file_that_I_want_to_move directory_where_I_want_to_move/
+touch=creating a file
+cp= same as mv
+cp/mv= we can use this directly even from absolute path
+
+mkrir= make a new directory
+ls -la =shows hiden contents inside a directory with details.
+/ =its a root directory
+ls -R; shows content as well as directory and contents of that directory too.R menas recursive.to
+.hiddel_file;any file start with don(.) becomes hidden file.
+ls -a; shows hidden file too.
+ls -lart;
+ls -l;
+Absolute vs Relative path
+history; shows all the commands that I have run so far.
+echo print_anything;
+echo "print anythin" > filename.extention; it will creat new file and save the content.
+printf "print string\n"
+cat filename.extention; will print the content on cli.
+sudo apt install softwarename; and it will install the sw.
+
+chmod 734 filename; to change permission.
+top; shows the processe those ushing the resourches.
+ps; shows all the running processes.
+ps -a;shows background processes as well.
+ps -ef;
+kill process_ID; to stop a process.
+sudo su or sydo -i; to become root user.
+exit ; to become regular user
+in vim editor, :wq to save and :q! to not save. 
+USERS IN LINUX:
+
+1. Regular user.;under Home directory it can do anything.
+2. Root user/supper user/admin.= Full access. sudo or sudo su
+3. Service user.= server susers
+
+
+
+SUDO:
+
+sudo apt-get update or sudo apt update= apt is used to see the list of the available softwares.by using apt we can install and update sw.
+sudo apt-get upgrade or sudo apt upgrade= upgrade is used to install all the softwares.
